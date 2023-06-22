@@ -116,6 +116,7 @@ genfscon sysfs /devices/virtual/graphics/fb1                            u:object
 genfscon sysfs /devices/soc/8c0000.qcom,msm-cam                         u:object_r:vendor_sysfs_camera:s0
 genfscon sysfs /devices/platform/soc/aa00000.qcom,vidc/sku_version      u:object_r:vendor_sysfs_sku:s0
 genfscon sysfs /devices/soc0                                            u:object_r:vendor_sysfs_soc:s0
+genfscon sysfs /devices/soc0/serial_number                              u:object_r:vendor_sysfs_soc_sensitive:s0
 genfscon sysfs /devices/soc0/soc_id                                     u:object_r:vendor_sysfs_public:s0
 genfscon sysfs /devices/system/soc/soc0/id                              u:object_r:vendor_sysfs_public:s0
 genfscon sysfs /devices/soc0/family                                     u:object_r:vendor_sysfs_public:s0
@@ -143,6 +144,7 @@ genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/drm/card0/sde-crtc-1/
 genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/drm/card0/sde-crtc-2/retire_frame_event u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/a600000.ssusb/mode                 u:object_r:vendor_sysfs_usb_device:s0
 genfscon sysfs /devices/platform/soc/a800000.ssusb/mode                 u:object_r:vendor_sysfs_usb_device:s0
+genfscon sysfs /devices/platform/soc/4e00000.ssusb/mode                 u:object_r:vendor_sysfs_usb_device:s0
 
 genfscon sysfs /devices/platform/hypervisor/hypervisor:qcom,gh-watchdog/wakeup_enable u:object_r:vendor_sysfs_wdog_device:s0
 
